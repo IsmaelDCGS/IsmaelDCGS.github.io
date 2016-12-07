@@ -23,7 +23,7 @@ body {
 	background-attachment: fixed;
 	background-image: url("http://cdn.wallpapersafari.com/32/35/6eab2t.jpg");
   font: 18px/1.4 $helvetica;
-  color: $White;
+  color: #FFFFFF;
 }
 
 .container {
@@ -35,7 +35,7 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
   font-family: $helveticaNeue;
-  color: $White;
+  color: #FFFFFF;
   font-weight: bold;
 
   line-height: 1.7;
@@ -64,7 +64,7 @@ h3 {
 
 h4 {
   font-size: 18px;
-  color: $White;
+  color: #FFFFFF;
 }
 
 p {
@@ -72,11 +72,11 @@ p {
 }
 
 a {
-  color: $White;
+  color: #FFFFFF;
   text-decoration: none;
 	cursor: pointer;
   &:hover, &:active {
-    color: $White;
+    color: #FFFFFF;
   }
 }
 
@@ -126,11 +126,11 @@ img {
 // Specify the color of the selection
 ::-moz-selection {
   color: $black;
-  background: $White;
+  background: #FFFFFF;
 }
 ::selection {
-  color: $White;
-  background: $White;
+  color: #FFFFFF;
+  background: #FFFFFF;
 }
 
 // Nicolas Gallagher's micro clearfix hack
@@ -195,7 +195,7 @@ img {
 
 .site-name {
   margin: 0;
-  color: $White;
+  color: #FFFFFF;
   cursor: pointer;
   font-family: $helveticaNeue;
   font-weight: 300;
@@ -205,7 +205,7 @@ img {
 
 .site-description {
   margin: -5px 0 0 0;
-  color: $White;
+  color: #FFFFFF;
   font-size: 16px;
 
   @include mobile {
@@ -235,7 +235,7 @@ nav {
 
     @include mobile {
       margin: 0 10px;
-      color: $White;
+      color: #FFFFFF;
     }
   }
 }
