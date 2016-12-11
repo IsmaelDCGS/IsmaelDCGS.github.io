@@ -313,8 +313,20 @@ height:50px;
 vertical-align: middle;
 }
 
-p {
-    border: 5px solid white;
+p.one {
+    border-style: solid;
+    border-color: white;
 }
+
+p.two {
+    border-style: solid;
+    border-color: white;
+}
+
+p.three {
+    border-style: solid;
+    border-color: white;
+}
+
 
 
